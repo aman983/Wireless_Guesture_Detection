@@ -41,8 +41,8 @@ Where $\alpha$ (defined as `COMPLEMENTARY_ALPHA`) is **0.98**, heavily trusting 
 
 | Gesture | Type | Condition | Threshold |
 | :--- | :--- | :--- | :--- |
-| **`GESTURE_SHAKE`** | Dynamic | Quick change in roll ($|\Delta\text{roll}|$) | `SHAKE_THRESHOLD` (**20.0°**) |
-| **`GESTURE_NOD`** | Dynamic | Quick change in pitch ($|\Delta \text{pitch}|$) | `NOD_THRESHOLD` (**20.0°**) |
+| **`GESTURE_SHAKE`** | Dynamic | Quick change in roll **|&Delta; Roll|** | `SHAKE_THRESHOLD` (**20.0°**) |
+| **`GESTURE_NOD`** | Dynamic | Quick change in pitch **|&Delta; Pitch|** | `NOD_THRESHOLD` (**20.0°**) |
 | **`GESTURE_TILT_RIGHT`** | Static | Sustained roll angle (positive) | `TILT_THRESHOLD` (**30.0°**) |
 | **`GESTURE_TILT_LEFT`** | Static | Sustained roll angle (negative) | `TILT_THRESHOLD` (**30.0°**) |
 | **`GESTURE_TILT_FORWARD`** | Static | Sustained pitch angle (positive) | `TILT_THRESHOLD` (**30.0°**) |
