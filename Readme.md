@@ -1,7 +1,8 @@
 # ESP-IMU-Gesture-Server
 
 A FreeRTOS-based project for the ESP8266 (or similar platform) that reads data from an MPU-6050 (Accelerometer/Gyroscope) and an HMC5883L (Magnetometer), applies sensor fusion for attitude estimation, detects gestures, and serves the detected gesture status over a simple HTTP endpoint.
-
+![Project Demo](Assets/demo.gif)
+![Board](Assets/board.jpeg)
 ## Features
 
 * **I2C Communication:** Custom low-level I2C read/write routines.
