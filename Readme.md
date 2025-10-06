@@ -34,7 +34,7 @@ The application is structured into two main FreeRTOS tasks that communicate via 
 ### Complementary Filter
 
 The filter estimates the true attitude (pitch and roll) by combining the two sensor sources:
-$$\text{Angle}_{new} = \alpha \cdot (\text{Angle}_{prev} + \text{GyroRate} \cdot \Delta t) + (1 - \alpha) \cdot \text{AccelAngle}$$
+$$Angle\_{new} = \alpha * (Angle\_{prev} + GyroRate * \Delta t) + (1 - \alpha) * AccelAngle$$
 Where $\alpha$ (defined as `COMPLEMENTARY_ALPHA`) is **0.98**, heavily trusting the gyroscope for short-term changes and using the accelerometer only for drift correction.
 
 ### Gestures Defined
